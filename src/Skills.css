@@ -1,0 +1,72 @@
+#skills h1{
+    text-align: center;
+}
+
+#skills{
+  display: flex;
+  flex-direction: column;
+}
+
+.hi{
+  display: flex;
+  flex-direction: row;
+}
+
+.skills-container {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 30px;
+  }
+  
+  .skill {
+    padding: 10px;
+    text-align: left;
+    width: 70%; 
+    margin-bottom: 5px;
+    margin-left: 100px;
+  }
+
+  .skill:hover{
+    cursor: pointer;
+    transform: scale(1.005);
+  }
+
+  .percent{
+    display: flex;
+  }
+  
+  .skill-name{
+    font-size: 14.5px;
+  }
+
+  .skill-percent{
+    margin-top: 5px;
+    font-size: 13px;
+  }
+  
+  .skill-progress {
+    height: 10px;
+    background-color: rgb(161, 197, 238);
+    margin-top: 8px;
+    align-items: left;
+    border-radius: 5px;
+  }
+
+  .skill-image{
+    float: left;
+    margin-top: 25px;
+  }
+
+  .simg{
+    margin-left: 300px;
+    height: 200px;
+    width: 200px;
+  }
+
+  #skills hr{
+    margin-top: 50px;
+    border: 1px solid rgba(77, 77, 77,0.4);
+    width: 90%;
+    color: black;
+  }

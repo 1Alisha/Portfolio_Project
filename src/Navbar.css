@@ -1,0 +1,33 @@
+.navbar {
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    top: 0;
+    width: 100%;
+  }
+  
+      
+  .navbar a {
+    color: rgb(240, 240, 255);
+    text-decoration: none;
+    margin: 0 20px; 
+  }
+
+  .navbar a:hover{
+    cursor: pointer;
+    color: rgb(223, 240, 255);
+  }
+  
+  .navbar h5{
+    font-size: 19px;
+    color: white;
+    margin-left: 50px;
+    margin-top: 13px;
+    margin-bottom: 13px;
+  }
+
+  .fab{
+    font-size: 18px;
+    color: white;
+  }

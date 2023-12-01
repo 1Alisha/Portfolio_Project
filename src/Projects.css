@@ -1,0 +1,71 @@
+#projects{
+    text-align: center;
+    padding: 50px 0;
+    margin-left: 200px;
+}
+
+.container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.one{
+    margin-top: 30px;
+    margin-left: 350px;
+}
+.two{
+    margin-right: 350px;
+    margin-top: 30px;
+}
+
+.catalog-cell {
+    margin-right: 20px;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.catalog-cell:hover .text-overlay{
+    cursor: pointer;
+    display: block;
+}
+  
+.catalog-image {
+    margin-bottom: 5px;
+    height: 200px;
+    width: 100%;
+}
+
+.catalog-cell p{
+    font-style: italic;
+    margin-top: -2px;
+}
+
+.text-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 250px;
+    height: 110px;
+    background-color: rgba(0, 0, 0, 0.3); 
+    color: white;
+    padding-top: 7lvw;
+    text-align: center;
+    display: none;
+    font-size: 1.3lvw;
+    opacity: 0; 
+    animation: fadeIn 0.3s ease forwards; 
+  }
+
+  @keyframes fadeIn {
+    to {
+      opacity: 1;
+    }
+  }
+
+  #projects hr{
+    margin-top: 30px;
+    border: 1px solid rgba(77, 77, 77,0.4);
+    width: 90%;
+    color: black;
+  }
